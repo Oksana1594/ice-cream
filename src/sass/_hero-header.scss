@@ -1,0 +1,41 @@
+body{background-color: #84A178;}
+.main-header {
+    ;
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.header {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.menu-list{display:flex ;
+margin-left: 270px;
+}
+.menu-item{margin-left: 27px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;}
+    .button{
+        margin-left: 144px;
+            width: 152px;
+            height: 42px;
+            left: 0px;
+            top: 0px;
+        
+            background: #F8D24E;
+            border-radius: 10px;
+    }
+    .link-logo{
+    }
