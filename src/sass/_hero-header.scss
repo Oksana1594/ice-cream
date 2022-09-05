@@ -1,7 +1,9 @@
 body{background-color: #84A178;}
 .main-header {
-    ;
+
 }
+    
+
 .container {
     padding-left: 0px;
     padding-right: 0px;
@@ -18,7 +20,7 @@ body{background-color: #84A178;}
 margin-left: 270px;
 }
 .menu-item{margin-left: 27px;
-
+;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -38,4 +40,171 @@ margin-left: 270px;
             border-radius: 10px;
     }
     .link-logo{
+        position: absolute;
+            width: 60px;
+            height: 65px;
+            left: 16px;
+            top: 8px;
     }
+    .menu-link{
+
+color: #FCFCFC;
+    }
+    .main-title{
+        position: absolute;
+            width: 367px;
+            height: 144px;
+            left: 17px;
+            top: 118px;
+        
+            font-family: 'Seymour One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 48px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        
+            color: #FCFCFC;
+    }
+    .button-hero{margin-top: 290px;
+        margin-left: 16px;
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 134px;
+        height: 42px;
+        left: 0px;
+        top: 0px;
+    
+        border: 2px solid #F8D24E;
+        border-radius: 10px;
+    }
+    .menu-link-about{
+    position: absolute;
+    margin-left: 162px;
+        margin-top: 290px;
+        width: 111px;
+        height: 17px;
+        left: 22px;
+        top: 12px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-decoration-line: underline;
+    
+        color: #F8D24E;
+    }
+        
+.smile-ice-cream {
+    margin-left: 723px;
+    
+}
+.numbers-1 {
+    position: absolute;
+        width: 52px;
+        height: 56px;
+        left: 1132px;
+        top: 126px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 56px;
+        /* identical to box height */
+    
+        text-align: right;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    
+        color: #131313;
+}
+.cafes-1 {
+position: absolute;
+    width: 37px;
+    height: 17px;
+    left: 1147px;
+    top: 186px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.numbers-2 {
+position: absolute;
+    width: 59px;
+    height: 56px;
+    left: 1125px;
+    top: 219px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #131313;
+} 
+.cafes-2 {
+position: absolute;
+    width: 79px;
+    height: 17px;
+    margin-left: 1105px;
+    top: 279px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.ice-plate {
+    position: absolute;
+        width: 225px;
+        height: 225px;
+        left: 17px;
+        top: 374px;
+}
+.title{
+    position: absolute;
+        width: 200px;
+        height: 80px;
+        left: 256px;
+        top: 441px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+    
+    
+        color: #FFFFFF;
+}
