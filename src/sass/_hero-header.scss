@@ -1,8 +1,20 @@
 body{background-color: #84A178;}
-.main-header {
-
-}
+head {
+position: absolute;
+    width: 1200px;
+    height: 664px;
+    left: 0px;
+    top: 0px;
+    background: #84A278;
     
+}
+    .header-button{
+        position: absolute;
+            width: 152px;
+            height: 42px;
+            left: 1032px;
+            bottom: -5px; ;
+    }
 
 .container {
     padding-left: 0px;
@@ -17,10 +29,94 @@ body{background-color: #84A178;}
     align-items: center;
 }
 .menu-list{display:flex ;
-margin-left: 270px;
+
 }
-.menu-item{margin-left: 27px;
-;
+@media screen and (min-width: 1200px) {
+    .menu-item {
+        margin-left: 27px;
+    }
+}
+
+.menu-link-Home{
+position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 345px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+}
+
+.menu-link-How-Its-made{
+position: absolute;
+    width: 129px;
+    height: 20px;
+    left: 423px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #F8D24E;
+}
+.menu-link-Our-products{
+position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 579px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+}
+.menu-link-Contact{
+position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 718px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+}
+
+.menu-item{
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -29,8 +125,7 @@ margin-left: 270px;
     display: flex;
     align-items: center;
     color: #fff;}
-    .button{
-        margin-left: 144px;
+    .button{ position: absolute;
             width: 152px;
             height: 42px;
             left: 0px;
@@ -46,10 +141,32 @@ margin-left: 270px;
             left: 16px;
             top: 8px;
     }
-    .menu-link{
+    .menu-list{
+        position: absolute;
+        width: 440px;
+        height: 20px;
+        
+        top: 40px;
 
-color: #FCFCFC;
     }
+.menu-link{
+    width: 129px;
+        height: 20px;
+        left: 579px;
+        top: 40px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        color: #FCFCFC;
+}
+
     .main-title{
         position: absolute;
             width: 367px;
@@ -106,7 +223,10 @@ color: #FCFCFC;
         
 .smile-ice-cream {
     margin-left: 723px;
-    
+    width: 447px;
+        height: 561px;
+        left: 0px;
+        top: 29px;
 }
 .numbers-1 {
     position: absolute;
@@ -207,4 +327,27 @@ position: absolute;
     
     
         color: #FFFFFF;
+}
+
+.smile-ice-cream-and-possessions{
+    
+}
+
+.possessions{
+    position: absolute;
+        width: 52px;
+        height: 77px;
+        left: px;
+        top: 126px;
+    
+    
+    
+        /* Group 130 */
+    
+    
+        position: absolute;
+        width: 79px;
+        height: 77px;
+        
+        top: 1px;
 }
