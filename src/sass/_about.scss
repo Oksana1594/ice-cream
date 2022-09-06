@@ -90,10 +90,18 @@
   @media screen and (min-width: 321px) {
     left: -30px;
   }
+  @media screen and (min-width: 400px) {
+    left: -14px;
+  }
   @media screen and (min-width: 479px) {
     left: 40px;
   }
-
+  @media screen and (min-width: 550px) {
+    left: 84px;
+  }
+  @media screen and (min-width: 670px) {
+    left: 122px;
+  }
   @media screen and (min-width: 768px) {
     top: 32px;
     left: 0px;
@@ -131,7 +139,10 @@
 
 .about__content {
   padding-top: 40px;
+  // padding-left: 50px;
+  // padding-right: 50px;
   align-items: center;
+
   @media screen and (min-width: 768px) {
     width: 336px;
     padding-right: 0;
