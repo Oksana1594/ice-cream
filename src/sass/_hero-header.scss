@@ -1,4 +1,304 @@
-body{background-color: #84A178;}
+
+.section{
+padding-top: 0;
+background-color: #84A178;
+
+}
+.hero-section{
+    
+}
+
+.container-header{
+    padding-top: 0;
+}
+
+.Logo-header{
+    width: 40px;
+        height: 37px;
+        margin-left: 20px;
+        margin-top: 12px;
+}
+
+.menu-list{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        max-height: 796px;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        background: #FFFFFF;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 500ms linear, visibility 500ms linear;
+    }
+
+    .mobile-menu.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .mobile-menu__container {
+        position: relative;
+        padding-left: 25px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .mobile-menu__close-btn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        line-height: 0;
+    }
+
+    .mobile-menu__close-btn :hover,
+    .mobile-menu__close-btn :focus {
+        fill: var(--accent-color);
+    }
+
+    .checklist {
+        display: block;
+    }
+
+    .checklist__item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+        color: #212121;
+        padding-bottom: 32px;
+    }
+
+    .checklist__item :hover,
+    .checklist__item :focus {
+        color: var(--accent-color);
+    }
+
+    .checklist__item:last-child {
+        padding-bottom: 302px;
+    }
+
+    .info {}
+
+    .info__item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        padding-bottom: 32px;
+    }
+
+    .info__item:last-child {
+        padding-bottom: 64px;
+    }
+
+    .info__item-grey {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #757575;
+
+    }
+
+    .media {
+        display: flex;
+    }
+
+    .media__item {
+        padding-right: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+    }
+
+    .media__link {
+        color: rgba(33, 33, 33, 0.2);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+.mobile-menu-open{
+    margin-left: 268px;
+    background-color: #84A178;
+    border: none;
+    
+}
+
+.button-header{
+    visibility: hidden;
+}
+
+
+        .mobile-menu__container {
+        }
+
+                .main-title {
+                    position: absolute;
+                    width: 367px;
+                    height: 144px;
+                    left: 17px;
+                    top: 118px;
+        
+                    font-family: 'Seymour One';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 48px;
+                    letter-spacing: 0.04em;
+                    text-transform: uppercase;
+        
+                    color: #FCFCFC;
+                }
+                .button-hero{
+                 padding-left: 8px;
+                }
+                .buttons{
+position: absolute;
+display: flex;
+    width: 82.8px;
+    height: 24px;
+    left: 90px;
+    top: 239px;
+                }
+  .button-hero {
+                                 
+                                    
+                                    width: 134px;
+                                    height: 42px;
+                                    left: 0px;
+                                    top: 0px;
+                
+                                    border: 2px solid #F8D24E;
+                                    border-radius: 10px;
+                                }
+
+   .menu-link-about {
+  width: 111px;
+     height: 17px;
+      left: 22px;
+ top: 12px;
+
+      font-family: 'Montserrat';
+   font-style: normal;
+      font-weight: 600;
+     font-size: 14px;
+  line-height: 17px;
+ 
+                                    
+                                        display: flex;
+                                        align-items: center;
+                                        text-align: center;
+                                        text-decoration-line: underline;
+                                    
+                                        color: #F8D24E;
+                                    }
+.smile-ice-cream{
+    position: absolute;
+        left: 0px;
+        top: 11.55px;
+}
+
+    /* identical to box height 
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+
+
+.menu-link-How-Its-made{
+position: absolute;
+    width: 129px;
+    height: 20px;
+    left: 423px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height 
+
+    display: flex;
+    align-items: center;
+
+    color: #F8D24E;
+}
+.menu-link-Our-products{
+position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 579px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height 
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+}
+.menu-link-Contact{
+position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 718px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height 
+
+    display: flex;
+    align-items: center;
+
+    color: #FCFCFC;
+}
+
+
+
+
+
+
+
+/*body{background-color: #84A178;}
 head {
 position: absolute;
     width: 1200px;
@@ -49,7 +349,7 @@ position: absolute;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+    /* identical to box height 
 
     display: flex;
     align-items: center;
@@ -69,7 +369,7 @@ position: absolute;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+    /* identical to box height 
 
     display: flex;
     align-items: center;
@@ -88,7 +388,7 @@ position: absolute;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+    /* identical to box height 
 
     display: flex;
     align-items: center;
@@ -107,7 +407,7 @@ position: absolute;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+    /* identical to box height 
 
     display: flex;
     align-items: center;
@@ -160,7 +460,7 @@ position: absolute;
         font-weight: 700;
         font-size: 16px;
         line-height: 20px;
-        /* identical to box height */
+        /* identical to box height 
     
         display: flex;
         align-items: center;
@@ -211,7 +511,7 @@ position: absolute;
         font-weight: 600;
         font-size: 14px;
         line-height: 17px;
-        /* identical to box height */
+        /* identical to box height 
     
         display: flex;
         align-items: center;
@@ -240,7 +540,7 @@ position: absolute;
         font-weight: 900;
         font-size: 46px;
         line-height: 56px;
-        /* identical to box height */
+        /* identical to box height 
     
         text-align: right;
         letter-spacing: 0.04em;
@@ -260,7 +560,7 @@ position: absolute;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
+    /* identical to box height 
 
     text-align: right;
 
@@ -278,7 +578,7 @@ position: absolute;
     font-weight: 900;
     font-size: 46px;
     line-height: 56px;
-    /* identical to box height */
+    /* identical to box height 
 
     text-align: right;
     letter-spacing: 0.04em;
@@ -298,7 +598,7 @@ position: absolute;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
+    /* identical to box height 
 
     text-align: right;
 
@@ -323,7 +623,7 @@ position: absolute;
         font-weight: 400;
         font-size: 14px;
         line-height: 140%;
-        /* or 20px */
+        /* or 20px 
     
     
         color: #FFFFFF;
@@ -342,7 +642,7 @@ position: absolute;
     
     
     
-        /* Group 130 */
+        /* Group 130 
     
     
         position: absolute;
@@ -350,4 +650,4 @@ position: absolute;
         height: 77px;
         
         top: 1px;
-}
+}*/

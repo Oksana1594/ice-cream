@@ -1,29 +1,74 @@
-<head class="main-header">
-    <div class="container-header">
-        <nav class="navigation">
-            <a class="link-logo" href="" lang="en">
-                <img src="/src/images/hero/logo-desktop.png" alt="">
-            </a>
-            <ul class="menu-list">
-                <li class="menu-item">
-                    <a class="menu-link-Home" href="./index.html">Home</a>
-                </li>
+<section class="section header-section">
+    <head class="main-header">
+        <div class="container-header">
+            <nav class="navigation">
+                <a class="link-logo" href="" lang="en">
+                    <svg class="Logo-header" width="40px" heigth="37px">
+                        <use href="/src/images/icons.svg#icon-Logo"></use>
+                    </svg>
+                </a>
+                <button type="button" class="mobile-menu-open" data-menu-open>
+                    <svg class="mobile-menu-open__icon" width="32" height="32">
+                        <use class="icon-menu" href="/src/images/icons.svg#burger"></use>
+                    </svg>
+                </button>
+                <div class="mobile-menu" data-menu>
+                    <div class="mobile-menu__container">
+                        <button class="mobile-menu__close-btn" data-menu-close>
+                            <svg class="mobile-menu__close-icon" width="40" height="40">
+                                <use href="/src/images/icons.svg#cancel"></use>
+                            </svg>
+                        </button>
+                        <ul class="list checklist">
+                            <li class="checklist__item link">
+                                <a class="checklist__item link" href="">С</a>
+                            </li>
+                            <li class="checklist__item link">
+                                <a class="checklist__item link" href="">П</a>
+                            </li>
+                            <li class="checklist__item">
+                                <a>К</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </header>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a class="menu-link-Home" href="./index.html">Home</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                        <a class="menu-link-How-Its-made" href="./index.html">How It's made?</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link-Our-products" href="./index.html">Our products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link-Contact" href="./index.html">Contact</a>
+                    </li>
+                </ul>
+            
                 
-                <li class="menu-item">
-                    <a class="menu-link-How-Its-made" href="./index.html">How It's made?</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link-Our-products" href="./index.html">Our products</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link-Contact" href="./index.html">Contact</a>
-                </li>
-                <li class="header-button"><button class="button" type="button" data-modal-open>Buy now <a class="arrow"> ></a></button></li>
-            </ul>
-    </div>
+                <button class="button-header" type="button">Buy now ></button>
+            </nav>
+            
+        </div>
+</section>
 </head>
+
     <!--Hero-->
-    <div class="hero">
+    <section class="section hero-section">
+<div class="container hero">
+<h1 class="main-title">ice cream made with passion</h1>
+</div>
+<div class="buttons">
+        <button class="button-hero" type="button" data-modal-open>Products</button>
+        <a class="menu-link-about" href="./index.html">How it's made?</a>
+<img class=" smile-ice-cream" src="/src/images/hero/ice-cream-mobile.png" width="157" height="207" alt="">
+</div>
+    </section>
+    <!--<div class="container hero">
     <div class="container">
         <h1 class="main-title">ice cream made with passion</h1>
         <ul>
@@ -51,4 +96,4 @@
         <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             et</h3>
     </div>
-    </div>
+    </div>--
